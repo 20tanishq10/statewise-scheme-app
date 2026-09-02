@@ -1,5 +1,6 @@
-streamlit
-pandas
-geopandas
-plotly
-matplotlib
+# Runtime dependencies only. Deliberately small: the shapefile is converted to
+# GeoJSON at build time by scripts/build_geodata.py, so geopandas/pyogrio/pyproj
+# (~60 MB of wheels) are NOT needed to serve the app.
+streamlit==1.50.0
+pandas==2.3.3
+plotly==7.0.0

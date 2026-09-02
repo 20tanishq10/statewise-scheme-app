@@ -1,0 +1,6 @@
+-r requirements.txt
+
+# Needed only to regenerate data/india_states.geojson from the source shapefile.
+geopandas==1.0.1
+# Test runner.
+pytest==8.3.4
