@@ -64,7 +64,7 @@ testable without a browser or a server.
 ### Why the shapefile is preprocessed
 
 The original build shipped a zipped district shapefile and, on **every rerun**,
-unzipped it and dissolved 600+ districts into 32 states. That required
+unzipped it and dissolved 482 district polygons into 32 states. That required
 `geopandas`, `pyogrio` and `pyproj` — roughly 60 MB of wheels — at runtime, and
 it is the most common reason a geospatial Streamlit app fails to deploy.
 
