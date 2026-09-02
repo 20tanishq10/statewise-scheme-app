@@ -1,0 +1,14 @@
+# Virtualenvs
+.venv/
+venv/
+
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Intermediate shapefile extraction (build output, regenerate with scripts/)
+india_shapefile/
+
+# OS noise
+.DS_Store
